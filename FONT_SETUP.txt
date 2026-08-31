@@ -1,0 +1,12 @@
+ZENITH FITNESS HUB — FONT-READY BUILD
+
+This build is already configured for Mortend + Gotham.
+
+Before deploying, add these licensed files to assets/fonts/:
+- Mortend Bold.otf
+- Gotham Regular.otf
+- Gotham Medium.otf
+- Gotham Bold.otf
+- Gotham Black.otf
+
+No HTML edits are required after the font files are added.

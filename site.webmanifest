@@ -1,0 +1,9 @@
+{
+  "name": "Zenith Fitness Hub",
+  "short_name": "Zenith",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#07090d",
+  "theme_color": "#07090d",
+  "icons": [{"src":"assets/favicon.png","sizes":"512x512","type":"image/png"}]
+}
