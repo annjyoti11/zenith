@@ -49,3 +49,18 @@
 
 /* Contact page */
 .contact-hero>img{object-position:center 50%}.contact-page-section{background:#080b10}.contact-page-grid{display:grid;grid-template-columns:.9fr 1.35fr;gap:18px;align-items:start}.contact-card-stack{display:grid;gap:10px}.contact-card{border:1px solid var(--line);background:linear-gradient(180deg,#111821,#0b1016);padding:26px}.contact-card small,.map-panel small{display:block;color:#6f8fe8;font-weight:900;letter-spacing:.12em;margin-bottom:10px}.contact-card h2{font-size:clamp(2rem,3vw,3rem);margin:0 0 10px}.contact-card h3{font-size:1.25rem;margin:0 0 7px;line-height:1.2}.contact-card p{color:var(--muted);font-size:.8rem;margin:0 0 18px}.contact-card-actions{display:flex;gap:8px;flex-wrap:wrap}.contact-line{display:block;color:#c6d0db;font-size:.78rem;padding:10px 0;border-bottom:1px solid var(--line)}.contact-line:last-child{border-bottom:0}.hours-row{display:flex;justify-content:space-between;gap:20px;padding:12px 0;border-bottom:1px solid var(--line)}.hours-row span{color:#8e9aa7;font-size:.76rem}.hours-row strong{font-family:"Mortend","Arial Black",sans-serif;font-size:.8rem;text-transform:uppercase}.hours-card p{margin-top:16px;margin-bottom:0}.map-panel{border:1px solid var(--line);background:#0d1219;overflow:hidden}.map-frame{height:620px;background:#111820}.map-frame iframe{width:100%;height:100%;border:0;filter:grayscale(.2) contrast(1.05)}.map-panel-footer{display:flex;justify-content:space-between;gap:24px;align-items:center;padding:20px}.map-panel-footer strong{font-family:"Mortend","Arial Black",sans-serif;text-transform:uppercase;display:block}.skip-link{position:fixed;left:12px;top:-60px;z-index:9999;background:#fff;color:#000;padding:10px 14px;font-weight:800}.skip-link:focus{top:12px}@media(max-width:980px){.contact-page-grid{grid-template-columns:1fr}.map-frame{height:480px}}@media(max-width:640px){.contact-card-actions .btn{flex:1}.hours-row{display:grid;gap:4px}.map-frame{height:390px}.map-panel-footer{align-items:flex-start;flex-direction:column}.map-panel-footer .btn{width:100%}}
+
+/* v5.7 — Mobile hero typography consistency
+   Homepage is the master reference. Internal page heroes now use the same
+   mobile display scale, line-height and tracking without changing desktop. */
+@media(max-width:640px){
+  .page-hero h1{
+    font-size:clamp(2.7rem,13.8vw,4rem);
+    line-height:.84;
+    letter-spacing:-.055em;
+    margin:14px 0 18px;
+  }
+}
+@media(max-width:390px){
+  .page-hero h1{font-size:clamp(2.45rem,13vw,3.2rem)}
+}
